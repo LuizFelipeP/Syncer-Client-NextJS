@@ -2,6 +2,7 @@
   "name": "syncer-novo",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -9,9 +10,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "indexdb": "^0.0.0",
+    "next": "15.0.1",
+    "next-pwa": "^5.6.0",
     "react": "19.0.0-rc-69d4b800-20241021",
     "react-dom": "19.0.0-rc-69d4b800-20241021",
-    "next": "15.0.1"
+    "yjs": "^13.6.20"
   },
   "devDependencies": {
     "eslint": "^8",
